@@ -1,0 +1,1 @@
+ALTER TABLE "schedules" ADD CONSTRAINT "schedule_time_order_check" CHECK ("schedules"."end_time" > "schedules"."start_time");

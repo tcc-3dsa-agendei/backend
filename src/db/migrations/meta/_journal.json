@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790644113697,
+      "tag": "0000_auth-tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790645871574,
+      "tag": "0001_add-scheduling-tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791233789184,
+      "tag": "0002_schedule-time-order",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791234456377,
+      "tag": "0003_appointment-integrity",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791235356266,
+      "tag": "0004_cnpj-normalized-identity",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791759450606,
+      "tag": "0005_appointment-customer-email",
+      "breakpoints": true
+    }
+  ]
+}

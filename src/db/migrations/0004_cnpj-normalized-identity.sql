@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "users_cnpj_normalized_unique" ON "users" USING btree (regexp_replace("cnpj", '[^0-9]', '', 'g'));
